@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useState } from 'react'
 import BoardCard from '../components/BoardCard'
-import BoardForm from '../components/Boardform'
-import FilterBar from '../components/Filterbar'
+import BoardForm from '../components/BoardForm'
+import FilterBar from '../components/FilterBar'
 import SearchBar from '../components/SearchBar'
 import { API_URL } from '../api'
 

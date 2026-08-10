@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import AIKudosWriter from './AiKudosWriter'
+import AIKudosWriter from './AIKudosWriter'
 import GifPicker from './GifPicker'
 import { API_URL } from '../api'
 
