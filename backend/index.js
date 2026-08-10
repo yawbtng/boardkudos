@@ -625,8 +625,7 @@ app.use((req, res) => {
 })
 
 // START SERVER
-app.listen(PORT, () => {
-  console.log(
-    `Kudos Board API running on http://localhost:${PORT}`
-  )
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`Kudos Board API running on port ${PORT}`)
 })
+
